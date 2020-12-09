@@ -1,2 +1,2 @@
 # webserver
-webserver by c on ubuntu
+webserver by c on Ubuntu
