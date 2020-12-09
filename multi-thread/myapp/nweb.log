@@ -1,0 +1,79 @@
+[16:46:47 Tue 08/12/2020] INFO: nweb starting:8181:12613
+[16:46:52 Tue 08/12/2020] INFO: request:GET /a HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Cache-Control: max-age=0****:1
+[16:46:52 Tue 08/12/2020] FORBIDDEN: file extension type not supported:GET /a
+[16:46:52 Tue 08/12/2020] NOT FOUND: failed to open file:a
+[16:46:52 Tue 08/12/2020] INFO: SEND:a:1
+[16:46:52 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: -1
+Connection: close
+Content-Type: (null)
+
+:1
+[16:52:43 Tue 08/12/2020] INFO: nweb starting:8181:12756
+[16:52:50 Tue 08/12/2020] INFO: request:GET /a HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
+[16:52:50 Tue 08/12/2020] FORBIDDEN: file extension type not supported:GET /a
+[16:52:53 Tue 08/12/2020] INFO: request:GET /a HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1**Cache-Control: max-age=0****:2
+[16:52:53 Tue 08/12/2020] FORBIDDEN: file extension type not supported:GET /a
+[16:52:57 Tue 08/12/2020] INFO: request:GET / HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:3
+[16:52:57 Tue 08/12/2020] INFO: SEND:index.html:3
+[16:52:57 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 599
+Connection: close
+Content-Type: text/html
+
+:3
+[16:52:57 Tue 08/12/2020] INFO: request:GET /sea.jpg HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: image/webp,*/***Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Referer: http://127.0.0.1:8181/****:4
+[16:52:57 Tue 08/12/2020] INFO: SEND:sea.jpg:4
+[16:52:57 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 737099
+Connection: close
+Content-Type: image/jpg
+
+:4
+[16:55:53 Tue 08/12/2020] INFO: nweb starting:8181:12866
+[16:56:01 Tue 08/12/2020] INFO: request:GET /gyj HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
+[16:56:01 Tue 08/12/2020] FORBIDDEN: file extension type not supported:GET /gyj
+
+[16:56:38 Tue 08/12/2020] INFO: request:GET / HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:2
+[16:56:38 Tue 08/12/2020] INFO: SEND:index.html:2
+[16:56:38 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 599
+Connection: close
+Content-Type: text/html
+
+:2
+[16:56:38 Tue 08/12/2020] INFO: request:GET /sea.jpg HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: image/webp,*/***Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Referer: http://127.0.0.1:8181/****:3
+[16:56:38 Tue 08/12/2020] INFO: SEND:sea.jpg:3
+[16:56:38 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 737099
+Connection: close
+Content-Type: image/jpg
+
+:3
+[17:00:05 Tue 08/12/2020] INFO: nweb starting:8181:13061
+[17:00:13 Tue 08/12/2020] INFO: request:GET /a HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
+[17:00:13 Tue 08/12/2020] FORBIDDEN: file extension type not supported:GET /a:1
+
+[17:00:16 Tue 08/12/2020] INFO: request:GET / HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8**Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:2
+[17:00:16 Tue 08/12/2020] INFO: SEND:index.html:2
+[17:00:16 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 599
+Connection: close
+Content-Type: text/html
+
+:2
+[17:00:16 Tue 08/12/2020] INFO: request:GET /sea.jpg HTTP/1.1**Host: 127.0.0.1:8181**User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0**Accept: image/webp,*/***Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2**Accept-Encoding: gzip, deflate**DNT: 1**Connection: keep-alive**Referer: http://127.0.0.1:8181/****:3
+[17:00:16 Tue 08/12/2020] INFO: SEND:sea.jpg:3
+[17:00:16 Tue 08/12/2020] INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 737099
+Connection: close
+Content-Type: image/jpg
+
+:3
